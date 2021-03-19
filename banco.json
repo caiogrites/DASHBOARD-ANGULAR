@@ -1,52 +1,126 @@
 {
+  "paises_outros": [
+    {
+      "name": "Asia",
+      "data": [
+        502,
+        635,
+        809,
+        947,
+        1402,
+        3634,
+        5268
+      ]
+    },
+    {
+      "name": "Africa",
+      "data": [
+        106,
+        107,
+        111,
+        133,
+        221,
+        767,
+        1766
+      ]
+    },
+    {
+      "name": "Europe",
+      "data": [
+        163,
+        203,
+        276,
+        408,
+        547,
+        729,
+        628
+      ]
+    },
+    {
+      "name": "America",
+      "data": [
+        18,
+        31,
+        54,
+        156,
+        339,
+        818,
+        1201
+      ]
+    },
+    {
+      "name": "Oceania",
+      "data": [
+        2,
+        2,
+        2,
+        6,
+        13,
+        30,
+        46
+      ]
+    }
+  ],
   "paises": [
     {
-       "country": "USA",
-       "visits": 3025,
-       "color": "#FF0F00"
-     }, {
-       "country": "China",
-       "visits": 1882,
-       "color": "#FF6600"
-     }, {
-       "country": "Japan",
-       "visits": 1809,
-       "color": "#FF9E01"
-     }, {
-       "country": "Germany",
-       "visits": 1322,
-       "color": "#FCD202"
-     }, {
-       "country": "UK",
-       "visits": 1122,
-       "color": "#F8FF01"
-     }, {
-       "country": "France",
-       "visits": 1114,
-       "color": "#B0DE09"
-     }, {
-       "country": "India",
-       "visits": 984,
-       "color": "#04D215"
-     }, {
-       "country": "Spain",
-       "visits": 711,
-       "color": "#0D8ECF"
-     }, {
-       "country": "Netherlands",
-       "visits": 665,
-       "color": "#0D52D1"
-     }, {
-       "country": "Russia",
-       "visits": 580,
-       "color": "#2A0CD0"
-     }, {
-       "country": "South Korea",
-       "visits": 443,
-       "color": "#8A0CCF"
-     }, {
-       "country": "Canada",
-       "visits": 441,
-       "color": "#CD0D74"
-     }]
-   }
+      "country": "USA",
+      "visits": 3025,
+      "color": "#FF0F00"
+    },
+    {
+      "country": "China",
+      "visits": 1882,
+      "color": "#FF6600"
+    },
+    {
+      "country": "Japan",
+      "visits": 1809,
+      "color": "#FF9E01"
+    },
+    {
+      "country": "Germany",
+      "visits": 1322,
+      "color": "#FCD202"
+    },
+    {
+      "country": "UK",
+      "visits": 1122,
+      "color": "#F8FF01"
+    },
+    {
+      "country": "France",
+      "visits": 1114,
+      "color": "#B0DE09"
+    },
+    {
+      "country": "India",
+      "visits": 984,
+      "color": "#04D215"
+    },
+    {
+      "country": "Spain",
+      "visits": 711,
+      "color": "#0D8ECF"
+    },
+    {
+      "country": "Netherlands",
+      "visits": 665,
+      "color": "#0D52D1"
+    },
+    {
+      "country": "Russia",
+      "visits": 580,
+      "color": "#2A0CD0"
+    },
+    {
+      "country": "South Korea",
+      "visits": 443,
+      "color": "#8A0CCF"
+    },
+    {
+      "country": "Canada",
+      "visits": 441,
+      "color": "#CD0D74"
+    }
+  ]
+}
