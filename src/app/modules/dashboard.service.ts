@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import { Observable } from 'rxjs';
 import { Paises } from './paises'
 import { tap } from 'rxjs/operators'
@@ -14,11 +14,11 @@ export class DashboardService {
 
   constructor(private http: HttpClient) { }
 
-  column(){
-    return this.http.get<Paises[]>(this.url)
-    .pipe(
-      tap(console.log),
-    )
+  column(payload?: string) {
+    return this.http.get<Paises[]>('http://localhost:3000/paises_outros')
+      .pipe(
+        tap(console.log),
+      )
   }
 
   bigChart() {
